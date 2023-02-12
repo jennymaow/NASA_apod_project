@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Helvetica", sans-serif;
+}
+
+
+body {
+  background-image: url("https://img.freepik.com/free-photo/empty-dark-room-modern-futuristic-sci-fi-background-3d-illustration_35913-2291.jpg?w=900&t=st=1676229740~exp=1676230340~hmac=f8691aea7e88487aa6a1c680fc10a3133796f67ca4dd647fedad66433c4b6f63");
+
+  background-size: 100%;
+  backdrop-filter: brightness(70%) ;
+}

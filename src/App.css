@@ -1,0 +1,65 @@
+.App {
+  margin: 1rem auto;
+  width: 90%;
+}
+.App > .title {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+  color: white;
+}
+
+.App > .title > img {
+  width: 60px;
+}
+
+.App > .head {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem 0 2rem 0;
+  gap: 1rem;
+}
+.App > .head h1 {
+  text-align: center;
+  font-size: 28px;
+  color: white;
+}
+.App > .head input {
+  width: 15vw;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.App > .content {
+  display: flex;
+  gap: 8rem;
+  min-height: 50vh;
+  justify-content: center;
+}
+
+.App > .content > img {
+  width: 35vw;
+}
+
+.App > .content > .apodFigure {
+  width: 45vw;
+  padding: 3rem;
+  background: rgba(247, 247, 247, 0.733);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(100px);
+  -webkit-backdrop-filter: blur(100px);
+  border-radius: 10px;
+}
+
+.App > .standard-dialog {
+  text-align: center;
+  margin: 1.5rem 0;
+  color: white;
+}
+
+.App > .standard-dialog > h1 {
+  font-size: 14px;
+}

@@ -1,0 +1,19 @@
+.apodFigure {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 0 1rem;
+}
+
+.apodFigure h1 {
+  font-size: 22px;
+}
+
+.apodFigure h3 {
+  font-size: 14px;
+}
+
+.apodFigure p {
+  font-size: 16px;
+  text-align: justify;
+}
